@@ -173,7 +173,7 @@ SATCHMO_SETTINGS = {
 
 L10N_SETTINGS = {
   'currency_formats': {
-    'UAH' : {'symbol': u'', 'positive': u"грн%(val)0.2f", 'negative': u"(%(val)0.2f)",
+    'UAH' : {'symbol': u'', 'positive': u"%(val)0.2fгрн", 'negative': u"(%(val)0.2f)",
       'decimal': '.'},
   },
   'default_currency': "UAH",
